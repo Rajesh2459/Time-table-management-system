@@ -43,10 +43,15 @@ Implemented a comprehensive timetable management system for the CSE department, 
 - Ensure that MySQL is running, as the project relies on it for database operations.
 - You can now proceed with running the Node.js application using the steps mentioned above.
 
-## Screenshots        
-![Screenshot (71)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/f581d262-4c34-4b02-a6ab-74517c94eada)
-![Screenshot (70)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/096c6a19-a10c-423d-b733-c21756e525d2)
-![Screenshot (68)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/dad9ef8d-d7b3-4a40-b6b1-f1dd0f437f78)
-![Screenshot (67)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/526c43fb-37b2-4e75-b7ac-1a082602c78f)
-![Screenshot (72)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/4f8cde50-53d0-48ea-b77e-ddbb31efc915)
+## Screenshots 
+1 Dashboard: 
 ![Screenshot (66)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/32b55d8f-dccc-4218-be0f-3e507c543b22)
+2  faculty and admin page :
+![Screenshot (67)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/526c43fb-37b2-4e75-b7ac-1a082602c78f)
+3 signup page :
+![Screenshot (68)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/dad9ef8d-d7b3-4a40-b6b1-f1dd0f437f78)
+
+![Screenshot (70)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/096c6a19-a10c-423d-b733-c21756e525d2)
+![Screenshot (71)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/f581d262-4c34-4b02-a6ab-74517c94eada)
+![Screenshot (72)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/4f8cde50-53d0-48ea-b77e-ddbb31efc915)
+
