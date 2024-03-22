@@ -15,6 +15,7 @@ Implemented a comprehensive timetable management system for the CSE department, 
 3. Faculty dashboard:
     to check their time table
 4. admin panel:
+   
      1.Faculty Management:
         Add,edit faculty information, including faculty ID and name.
      2.Course Management:
