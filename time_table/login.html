@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+    </style>
+    <style>
+      body,html
+      {
+         padding: 0px;
+         margin:0px;
+         color: white;
+      }
+      body{
+       background-color: 	rgb(255, 255, 255);
+       overflow: hidden;
+       font-family: 'Bruno Ace SC', cursive;
+     }
+      h1
+      {
+         text-align: center;
+      }
+      .b1 {
+         height: auto;
+         width: 100%;
+         border: 1px solid;
+         overflow: hidden;
+         border-radius: 10px;
+         box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+         background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+      .b1  ol li
+      {
+
+         display: inline-block;
+      }
+      nav {
+        overflow: hidden;
+        float: right;
+      }
+
+      nav a {
+        
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 2px 16px;
+        text-decoration: none;
+        border-radius: 8px;
+      }
+
+      nav a:hover {
+        background-color:  #05BFDB;
+        color: black;
+        border-radius: 10px;
+      }
+      /* .b1 nav
+      {
+        float: right;
+      } */
+       li
+       {
+        padding-right:5px;
+        padding-left:5px;
+       }
+       html.sr .load-hidden {
+  visibility: hidden;
+}
+html.sr .widget {
+  visibility: hidden;
+}
+
+        a
+       {
+        text-decoration: none;
+       }
+        .b2
+        {
+          margin:auto;
+          width:450px;
+          height:250px;
+          margin-top: 180px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          /* padding-left: -10px; */
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+          border-radius: 15px;
+         /* background-color: aqua;*/
+         
+background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+
+      tr,td
+      {
+         padding: 10px;
+      }
+      .ex{
+        margin-left: 65px;
+      }
+      .foot
+      {
+        background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100%;
+height: 50px;
+      }
+      a:link, a:visited {
+  background-color: rgb(14, 162, 225);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#a:hover, a:active {
+  background-color: red;
+}
+*{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+			list-style: none;
+			height:50px;
+			width: 100%;
+			position: fixed;
+			top:0;
+			left:0;
+			background: crimson;
+			box-shadow:2px 0px 5px black;
+			display: flex;
+			justify-content: space-around;
+		}
+		ul li{
+			margin: 5px;
+			padding: 5px;
+			}
+		ul li a{
+			color:white;
+			text-decoration:none;
+			font-size: 20px;
+			padding:5px; 
+		}
+	ul li a:hover
+	{
+		background: white;
+		color:blue;
+	}
+	.content{
+		display: flex;
+		width: 500%;
+	}
+  input[type="text"],input[type="password"]
+        {
+         width: 98%;
+         padding: 12px 20px;
+         margin: 4px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-left: 0px;
+        }
+        input[type=submit] 
+        {
+               width: 225px;
+               background-color:rgb(32, 162, 218);
+               color: white;
+               padding: 10px 10px;
+               border: none; 
+               cursor: pointer;
+               border-radius: 5px;
+               margin-left: 27%;
+               margin-top: 15px;
+        }
+   </style>
+  </head>
+  <body>
+      <div class="b1">
+         <nav>
+           <ol>
+             <li><a href="/">Home</a></li>
+            
+               <li><a href="/login">Sign In</a></li>
+           </ol>
+         </nav>
+      </div>
+      <div class = "b2 widget">
+        <h1>Sign in</h1>
+        <form action="" method = "post">
+           <table class="ex">
+              <tr>
+                 <td>
+                    Username
+                 </td>
+                 <td>
+                    <input type="text" name = "username" placeholder="Enter Username" required = "required">
+                 </td>
+              </tr>
+              <tr>
+                 <td>
+                    Password
+                 </td>
+                 <td>
+                    <input type="password" name="password"  placeholder="Enter Password" required = "required">
+                 </td>
+              </tr>
+            </table>
+           <input type="submit">
+                 
+              
+          
+        </form>
+       </div>
+       <script>
+        ScrollReveal().reveal('.headline', { duration: 2000 });
+        ScrollReveal().reveal('.widget', { duration: 3000 });
+      </script>
+    
+  </body>
+  <footer>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="foot">
+      <br>
+      <p style="text-align:center;">Copyright @ Team Anonymous</p> 
+    </div>
+  </footer>
+</html>

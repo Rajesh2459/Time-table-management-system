@@ -1,0 +1,157 @@
+<html>
+<head>
+    <style>
+    
+        @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+      body,html 
+      {
+        height:100%;
+        width:100%;
+        padding:0px;
+        margin:0px;
+        overflow: hidden;
+        font-family: 'Bruno Ace SC', cursive;
+        
+      }
+    .b1 {
+       height: 6%;
+       width: 100%;
+       margin:0px;
+       padding:10px;
+       overflow: hidden;
+       border-radius: 10px;
+       background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        
+}
+.foot
+      {
+        background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100%;
+height: 35px;
+
+      }
+.b1  ol li
+    {
+
+       display: inline-block;
+    }
+    /* .b1 nav
+    {
+      float: right;
+    } */
+    nav {
+      overflow: hidden;
+      float: right;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    nav a {
+     
+      display: inline-block;
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #05BFDB;
+      color: black;
+    }
+    .b2
+    {
+      height: 90%;
+      width:100%;
+      padding: 0px;
+      margin: 0px;
+    }
+    
+
+      a:link, a:visited {
+  background-color: rgb(14,162,225);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#a:hover, a:active {
+  background-color: red;
+}
+*{
+            margin: 0;
+            padding: 0;
+        }
+
+        html{
+            scroll-behavior: smooth;
+            font-family: tahoma;
+        }
+     
+		/* ul{
+			list-style: none;
+			height:50px;
+			width: 100%;
+			position: fixed;
+			top:0;
+			left:0;
+			background: crimson;
+			box-shadow:2px 0px 5px black;
+			display: flex;
+			justify-content: space-around;
+		}
+		ul li{
+			margin: 5px;
+			padding: 5px;
+			}
+		ul li a{
+			color:white;
+			text-decoration:none;
+			font-size: 20px;
+			padding:5px; 
+		}
+	ul li a:hover
+	{
+		background: white;
+		color:blue;
+	}
+	.content{
+		display: flex;
+		width: 500%;
+	} */
+     
+    </style>
+     
+</head>
+<body>
+  <div class = "b1">
+       <nav>
+         <ol>
+           <li><a href="/a1faculty" target = "bottom">Add Faculty</a></li>
+            <li><a href="/a1table" target = "bottom">Add Time Table</a></li>
+             <li><a href="/a1sub" target = "bottom">Assign Subjects</a></li>
+             <li><a href="/tables" target = "bottom">View Time Tables</a></li>
+             <!--<li><a href="/update" target="bottom">update time table</a></li>-->
+             <li><a href="/logout">Logout</a></li>
+         </ol>
+       </nav>
+  </div>
+  <div class = "b2 widget" >
+       <iframe src="/a1faculty" frameborder="0" height="100%" width="100%" name = "bottom"></iframe>
+  </div>
+  </body>
+  <footer>
+    <br><br><br><br>
+    <div class="foot">
+      <br>
+      <p style="text-align:center;">Copyright @ Team Anonymous</p> 
+    </div>
+  </footer>
+</html>
