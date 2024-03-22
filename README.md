@@ -56,7 +56,12 @@ Implemented a comprehensive timetable management system for the CSE department, 
 4.admin signup page:
 
 ![Screenshot (70)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/096c6a19-a10c-423d-b733-c21756e525d2)
-5. 
-![Screenshot (71)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/f581d262-4c34-4b02-a6ab-74517c94eada)
-![Screenshot (72)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/4f8cde50-53d0-48ea-b77e-ddbb31efc915)
+5.add faculty:
 
+![Screenshot (71)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/f581d262-4c34-4b02-a6ab-74517c94eada)
+6.add time table :
+
+![Screenshot (72)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/4f8cde50-53d0-48ea-b77e-ddbb31efc915)
+7. assign faculty to the subject :
+
+![Screenshot (73)](https://github.com/Rajesh2459/Time-table-management-system/assets/131291830/434350a2-d23f-4763-91e0-fba18a9302ff)
