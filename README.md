@@ -20,10 +20,10 @@ Implemented a comprehensive timetable management system for the CSE department, 
         Add,edit faculty information, including faculty ID and name.
    
      2.Course Management:
-        Add, and edit subject information, including subject ID and title.
+        Add,edit subject information, including subject ID and title.
    
      3.Period List Management:
-        Add, and edit period information, including period ID, start time, and end time
+        Add, edit period information, including period ID, start time, and end time
    
 5.User-Friendly Interface
     Designed an interactive admin panel for easy input and retrieval of timetable information.
